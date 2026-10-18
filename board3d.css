@@ -1,0 +1,8 @@
+/* The Three.js board is primary; semantic controls support keyboard play. */
+.board-stage { position: relative; aspect-ratio: 1; max-width: 490px; margin: auto; }
+.board3d { position: absolute; inset: 0; }
+.board3d[hidden] { display: none; }
+.board3d canvas { display: block; width: 100%; height: 100%; touch-action: pan-y; }
+.three-ready .grid { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.render-mode { display: block; text-align: center; font-size: 8px; letter-spacing: 1.7px; color: var(--muted); margin: 0 0 8px; }
+.three-ready:focus-within { outline: 1px solid var(--lime); outline-offset: -6px; border-radius: 10px; }

@@ -1,0 +1,12 @@
+{
+  "name": "nepa-light-up-lagos",
+  "version": "2.0.0",
+  "private": true,
+  "description": "A Three.js cable puzzle for start.ng; ready-to-play static files live at the repository root.",
+  "scripts": {
+    "test": "node --test engine.test.cjs",
+    "test:browser": "node browser.test.cjs",
+    "check": "node --check engine.js && node --check game.js && node --check board3d.js"
+  },
+  "devDependencies": { "playwright": "1.62.1" }
+}
